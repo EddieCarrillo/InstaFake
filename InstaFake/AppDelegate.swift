@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Parse
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +17,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        //Initialize the Parse server on Heroku
+        Parse.initialize(
+            with: ParseClientConfiguration(block: { (configuration: ParseMutableClientConfiguration) -> Void in
+                configuration.applicationId = "InstaFake"
+                configuration.clientKey = "fndskfjhasdlkjfhasdfkjhadsjfkl"  // set to nil assuming you have not set clientKey
+                configuration.server = "http://sheltered-beyond-13794.herokuapp.com/parse"
+            })
+        )
+        
+        
+        //Check to see if the user is logged in
+        if PFUser.current() != nil {
+            //If the user is already logged in
+        }
+        
         return true
     }
 
