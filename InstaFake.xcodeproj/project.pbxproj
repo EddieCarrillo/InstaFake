@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		123EA64CC5B0414F8F564E45 /* Pods_InstaFakeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDAD4A2FF91BC6DEF532DFA5 /* Pods_InstaFakeUITests.framework */; };
 		1F503B8F1E8F32B60023384D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F503B8E1E8F32B60023384D /* AppDelegate.swift */; };
-		1F503B911E8F32B60023384D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F503B901E8F32B60023384D /* ViewController.swift */; };
 		1F503B941E8F32B60023384D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F503B921E8F32B60023384D /* Main.storyboard */; };
 		1F503B961E8F32B60023384D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F503B951E8F32B60023384D /* Assets.xcassets */; };
 		1F503B991E8F32B60023384D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F503B971E8F32B60023384D /* LaunchScreen.storyboard */; };
 		1F503BA41E8F32B70023384D /* InstaFakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F503BA31E8F32B70023384D /* InstaFakeTests.swift */; };
 		1F503BAF1E8F32B70023384D /* InstaFakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F503BAE1E8F32B70023384D /* InstaFakeUITests.swift */; };
+		1F503BBD1E8F39190023384D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F503BBC1E8F39190023384D /* LoginViewController.swift */; };
+		1F503BC21E900A340023384D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F503BC11E900A340023384D /* Post.swift */; };
+		1F503BC41E90141D0023384D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F503BC31E90141D0023384D /* HomeViewController.swift */; };
+		1F503BC61E9018630023384D /* HomeScreenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F503BC51E9018630023384D /* HomeScreenCell.swift */; };
+		1F503BC81E902EB60023384D /* NewPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F503BC71E902EB60023384D /* NewPhotoViewController.swift */; };
+		1F6D2F681E91B81600CAE548 /* richardm.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F6D2F671E91B81600CAE548 /* richardm.ttf */; };
+		1F6D2F6C1E91DF7A00CAE548 /* ProfileSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6D2F6B1E91DF7A00CAE548 /* ProfileSectionHeader.swift */; };
+		1F6D2F6E1E91DFA900CAE548 /* ProfileSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F6D2F6D1E91DFA900CAE548 /* ProfileSectionHeader.xib */; };
+		3A1AEEBC7C056F8202D10F1F /* Pods_InstaFakeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8572912BC56F9492AAC14499 /* Pods_InstaFakeTests.framework */; };
+		A8925B18E72C3D0A8AA09FA1 /* Pods_InstaFake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1382A8BF6B33578C254F66 /* Pods_InstaFake.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		073BD6895121897F3D95D0CC /* Pods-InstaFakeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaFakeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstaFakeTests/Pods-InstaFakeTests.release.xcconfig"; sourceTree = "<group>"; };
 		1F503B8B1E8F32B50023384D /* InstaFake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaFake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F503B8E1E8F32B60023384D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1F503B901E8F32B60023384D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1F503B931E8F32B60023384D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F503B951E8F32B60023384D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F503B981E8F32B60023384D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +57,22 @@
 		1F503BAA1E8F32B70023384D /* InstaFakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaFakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F503BAE1E8F32B70023384D /* InstaFakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaFakeUITests.swift; sourceTree = "<group>"; };
 		1F503BB01E8F32B70023384D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F503BBC1E8F39190023384D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1F503BC11E900A340023384D /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		1F503BC31E90141D0023384D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1F503BC51E9018630023384D /* HomeScreenCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenCell.swift; sourceTree = "<group>"; };
+		1F503BC71E902EB60023384D /* NewPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPhotoViewController.swift; sourceTree = "<group>"; };
+		1F6D2F671E91B81600CAE548 /* richardm.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = richardm.ttf; sourceTree = "<group>"; };
+		1F6D2F6B1E91DF7A00CAE548 /* ProfileSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSectionHeader.swift; sourceTree = "<group>"; };
+		1F6D2F6D1E91DFA900CAE548 /* ProfileSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileSectionHeader.xib; sourceTree = "<group>"; };
+		254D081510A0F4697E5CFB6C /* Pods-InstaFakeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaFakeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstaFakeUITests/Pods-InstaFakeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		75473FC3F421CAA4A25919D7 /* Pods-InstaFake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaFake.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstaFake/Pods-InstaFake.debug.xcconfig"; sourceTree = "<group>"; };
+		80FA7E9D3AB2EF4231EA22E6 /* Pods-InstaFakeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaFakeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstaFakeTests/Pods-InstaFakeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8572912BC56F9492AAC14499 /* Pods_InstaFakeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaFakeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1382A8BF6B33578C254F66 /* Pods_InstaFake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaFake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE435D0B1BABA256480D8A9A /* Pods-InstaFakeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaFakeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstaFakeUITests/Pods-InstaFakeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CAEAC99930D4875239D2918B /* Pods-InstaFake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaFake.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstaFake/Pods-InstaFake.release.xcconfig"; sourceTree = "<group>"; };
+		EDAD4A2FF91BC6DEF532DFA5 /* Pods_InstaFakeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaFakeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8925B18E72C3D0A8AA09FA1 /* Pods_InstaFake.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A1AEEBC7C056F8202D10F1F /* Pods_InstaFakeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				123EA64CC5B0414F8F564E45 /* Pods_InstaFakeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +106,14 @@
 		1F503B821E8F32B50023384D = {
 			isa = PBXGroup;
 			children = (
+				1F6D2F6D1E91DFA900CAE548 /* ProfileSectionHeader.xib */,
+				1F6D2F661E91B81600CAE548 /* Resources */,
 				1F503B8D1E8F32B50023384D /* InstaFake */,
 				1F503BA21E8F32B70023384D /* InstaFakeTests */,
 				1F503BAD1E8F32B70023384D /* InstaFakeUITests */,
 				1F503B8C1E8F32B50023384D /* Products */,
+				F241390871B19341E80DA6EC /* Pods */,
+				4D7DBF69699F3F4B842EFB32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +130,10 @@
 		1F503B8D1E8F32B50023384D /* InstaFake */ = {
 			isa = PBXGroup;
 			children = (
+				1F503BC01E900A160023384D /* View */,
+				1F503BBF1E900A0C0023384D /* View Controllers */,
+				1F503BBE1E9009FD0023384D /* Model */,
 				1F503B8E1E8F32B60023384D /* AppDelegate.swift */,
-				1F503B901E8F32B60023384D /* ViewController.swift */,
 				1F503B921E8F32B60023384D /* Main.storyboard */,
 				1F503B951E8F32B60023384D /* Assets.xcassets */,
 				1F503B971E8F32B60023384D /* LaunchScreen.storyboard */,
@@ -125,6 +160,64 @@
 			path = InstaFakeUITests;
 			sourceTree = "<group>";
 		};
+		1F503BBE1E9009FD0023384D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F503BC11E900A340023384D /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1F503BBF1E900A0C0023384D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F503BBC1E8F39190023384D /* LoginViewController.swift */,
+				1F503BC31E90141D0023384D /* HomeViewController.swift */,
+				1F503BC71E902EB60023384D /* NewPhotoViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		1F503BC01E900A160023384D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F503BC51E9018630023384D /* HomeScreenCell.swift */,
+				1F6D2F6B1E91DF7A00CAE548 /* ProfileSectionHeader.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1F6D2F661E91B81600CAE548 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F6D2F671E91B81600CAE548 /* richardm.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4D7DBF69699F3F4B842EFB32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE1382A8BF6B33578C254F66 /* Pods_InstaFake.framework */,
+				8572912BC56F9492AAC14499 /* Pods_InstaFakeTests.framework */,
+				EDAD4A2FF91BC6DEF532DFA5 /* Pods_InstaFakeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F241390871B19341E80DA6EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75473FC3F421CAA4A25919D7 /* Pods-InstaFake.debug.xcconfig */,
+				CAEAC99930D4875239D2918B /* Pods-InstaFake.release.xcconfig */,
+				80FA7E9D3AB2EF4231EA22E6 /* Pods-InstaFakeTests.debug.xcconfig */,
+				073BD6895121897F3D95D0CC /* Pods-InstaFakeTests.release.xcconfig */,
+				BE435D0B1BABA256480D8A9A /* Pods-InstaFakeUITests.debug.xcconfig */,
+				254D081510A0F4697E5CFB6C /* Pods-InstaFakeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F503BB31E8F32B70023384D /* Build configuration list for PBXNativeTarget "InstaFake" */;
 			buildPhases = (
+				E6972ACD0EDDCA9839811C27 /* [CP] Check Pods Manifest.lock */,
 				1F503B871E8F32B50023384D /* Sources */,
 				1F503B881E8F32B50023384D /* Frameworks */,
 				1F503B891E8F32B50023384D /* Resources */,
+				F1197A7185DD6C299AE4671A /* [CP] Embed Pods Frameworks */,
+				29D90E0A30B3760736460EB8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F503BB61E8F32B70023384D /* Build configuration list for PBXNativeTarget "InstaFakeTests" */;
 			buildPhases = (
+				4FEFB7C40BEBF53B0F992A5F /* [CP] Check Pods Manifest.lock */,
 				1F503B9B1E8F32B70023384D /* Sources */,
 				1F503B9C1E8F32B70023384D /* Frameworks */,
 				1F503B9D1E8F32B70023384D /* Resources */,
+				4436A9FFD951E27A14DDA365 /* [CP] Embed Pods Frameworks */,
+				33EF866560303ED8C3346CE6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F503BB91E8F32B70023384D /* Build configuration list for PBXNativeTarget "InstaFakeUITests" */;
 			buildPhases = (
+				5223D0B9D445BA03C6CEAF9B /* [CP] Check Pods Manifest.lock */,
 				1F503BA61E8F32B70023384D /* Sources */,
 				1F503BA71E8F32B70023384D /* Frameworks */,
 				1F503BA81E8F32B70023384D /* Resources */,
+				76571DA3AD79ACCE45EE5C9D /* [CP] Embed Pods Frameworks */,
+				2EC62DECB06269BC2E31DFE7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +295,7 @@
 				TargetAttributes = {
 					1F503B8A1E8F32B50023384D = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = SC45B5UP34;
 						ProvisioningStyle = Automatic;
 					};
 					1F503B9E1E8F32B70023384D = {
@@ -234,7 +337,9 @@
 			files = (
 				1F503B991E8F32B60023384D /* LaunchScreen.storyboard in Resources */,
 				1F503B961E8F32B60023384D /* Assets.xcassets in Resources */,
+				1F6D2F681E91B81600CAE548 /* richardm.ttf in Resources */,
 				1F503B941E8F32B60023384D /* Main.storyboard in Resources */,
+				1F6D2F6E1E91DFA900CAE548 /* ProfileSectionHeader.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +359,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29D90E0A30B3760736460EB8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaFake/Pods-InstaFake-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EC62DECB06269BC2E31DFE7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaFakeUITests/Pods-InstaFakeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33EF866560303ED8C3346CE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaFakeTests/Pods-InstaFakeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4436A9FFD951E27A14DDA365 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaFakeTests/Pods-InstaFakeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FEFB7C40BEBF53B0F992A5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5223D0B9D445BA03C6CEAF9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		76571DA3AD79ACCE45EE5C9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaFakeUITests/Pods-InstaFakeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6972ACD0EDDCA9839811C27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1197A7185DD6C299AE4671A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaFake/Pods-InstaFake-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F503B871E8F32B50023384D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F503B911E8F32B60023384D /* ViewController.swift in Sources */,
+				1F503BC21E900A340023384D /* Post.swift in Sources */,
+				1F503BBD1E8F39190023384D /* LoginViewController.swift in Sources */,
 				1F503B8F1E8F32B60023384D /* AppDelegate.swift in Sources */,
+				1F503BC41E90141D0023384D /* HomeViewController.swift in Sources */,
+				1F503BC81E902EB60023384D /* NewPhotoViewController.swift in Sources */,
+				1F6D2F6C1E91DF7A00CAE548 /* ProfileSectionHeader.swift in Sources */,
+				1F503BC61E9018630023384D /* HomeScreenCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,8 +656,10 @@
 		};
 		1F503BB41E8F32B70023384D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75473FC3F421CAA4A25919D7 /* Pods-InstaFake.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SC45B5UP34;
 				INFOPLIST_FILE = InstaFake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ecarrillo.InstaFake;
@@ -420,8 +670,10 @@
 		};
 		1F503BB51E8F32B70023384D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAEAC99930D4875239D2918B /* Pods-InstaFake.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SC45B5UP34;
 				INFOPLIST_FILE = InstaFake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ecarrillo.InstaFake;
@@ -432,6 +684,7 @@
 		};
 		1F503BB71E8F32B70023384D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80FA7E9D3AB2EF4231EA22E6 /* Pods-InstaFakeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +699,7 @@
 		};
 		1F503BB81E8F32B70023384D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 073BD6895121897F3D95D0CC /* Pods-InstaFakeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +714,7 @@
 		};
 		1F503BBA1E8F32B70023384D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE435D0B1BABA256480D8A9A /* Pods-InstaFakeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = InstaFakeUITests/Info.plist;
@@ -473,6 +728,7 @@
 		};
 		1F503BBB1E8F32B70023384D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 254D081510A0F4697E5CFB6C /* Pods-InstaFakeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = InstaFakeUITests/Info.plist;
@@ -503,6 +759,7 @@
 				1F503BB51E8F32B70023384D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F503BB61E8F32B70023384D /* Build configuration list for PBXNativeTarget "InstaFakeTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +768,7 @@
 				1F503BB81E8F32B70023384D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F503BB91E8F32B70023384D /* Build configuration list for PBXNativeTarget "InstaFakeUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +777,7 @@
 				1F503BBB1E8F32B70023384D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

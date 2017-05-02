@@ -40,15 +40,7 @@ class NewPhotoViewController: UIViewController, UIImagePickerControllerDelegate,
             }
         }
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
+    
         
     }
     

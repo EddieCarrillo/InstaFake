@@ -26,7 +26,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 configuration.server = "http://sheltered-beyond-13794.herokuapp.com/parse"
             })
         )
-        
+        let families = UIFont.familyNames
+        for family: String in families {
+            print("family: \(family)")
+            
+            for names in UIFont.fontNames(forFamilyName: family) {
+                print("== \(names)")
+            }
+        }
         
         //Check to see if the user is logged in
         if PFUser.current() != nil {

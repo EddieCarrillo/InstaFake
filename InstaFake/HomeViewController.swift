@@ -26,8 +26,9 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         //Let the view controller be the delegate and data source
         self.tableView.dataSource = self
         self.tableView.delegate = self
-        self.tableView.register(UITableViewHeaderFooterView.self, forHeaderFooterViewReuseIdentifier:
-        "headerView")
+        //let nib = UINib()
+        //self.tableView.register(UITableViewHeaderFooterView.self, forHeaderFooterViewReuseIdentifier:
+        //"headerView")
         updateHome()
         
         

@@ -10,6 +10,9 @@ import UIKit
 
 class ProfileSectionHeader: UITableViewHeaderFooterView {
 
+    @IBOutlet weak var username: UILabel!
+    
+     @IBOutlet weak var profilePicture: UIImageView!
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
